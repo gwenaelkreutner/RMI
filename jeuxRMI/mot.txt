@@ -1,0 +1,14 @@
+banane
+tomate
+hotel
+haricot
+pomme
+courgette
+poivron
+souris
+chat
+chien
+chaise
+table
+ordinateur
+bureau

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controler.AllumetteControler">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="lblOrdi" layoutX="101.0" layoutY="50.0" text="Veuillez jouer" />
+            <Label fx:id="lblCompteur" layoutX="101.0" layoutY="67.0" />
+            <Button fx:id="btnRestart" layoutX="435.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#onClickRestart" text="Relancer" />
+            <Button fx:id="btnDifficulte" layoutX="354.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#onClickDifficulte" text="Difficile" />
+            <Button fx:id="btnRetour" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#onClickBack" text="Retour" />
+         </children></Pane>
+      <Pane prefHeight="248.0" prefWidth="600.0">
+         <children>
+            <Rectangle fx:id="allumette2" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="70.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette10" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="271.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette9" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="248.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette8" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="222.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle id="allumette1" fx:id="allumette1" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="46.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette7" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="198.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette6" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="173.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette5" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="148.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette4" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="125.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette3" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="97.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette12" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="322.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette13" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="348.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette14" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="373.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette15" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="400.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette16" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="426.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette17" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="454.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette18" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="482.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette19" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="509.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette20" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="535.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette21" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="557.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+            <Rectangle fx:id="allumette11" arcHeight="5.0" arcWidth="5.0" fill="#fbff1f" height="135.0" layoutX="298.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="5.0" />
+         </children>
+      </Pane>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <GridPane layoutX="69.0" layoutY="44.0" prefHeight="30.0" prefWidth="463.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="butun1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClickFirstBtn" prefHeight="27.0" prefWidth="102.0" text="1 Allumette" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                  <Button fx:id="butun2" mnemonicParsing="false" onMouseClicked="#onClickSecondBtn" prefHeight="27.0" prefWidth="102.0" text="2 Allumettes" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                  <Button fx:id="butun3" mnemonicParsing="false" onMouseClicked="#onClickThirdBtn" prefHeight="27.0" prefWidth="102.0" text="3 Allumettes" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+   </children>
+</VBox>
